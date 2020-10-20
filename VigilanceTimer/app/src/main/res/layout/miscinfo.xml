@@ -1,0 +1,164 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#169ee5"
+            android:gravity="center"
+            android:text="@string/miscInfoTitle"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/trailGenderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/trialGenderTitle"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:id="@+id/trialGender"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/focusMale"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:baselineAligned="true"
+                android:text="@string/focusMale"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/focusFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:baselineAligned="true"
+                android:text="@string/focusFemale"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/isFullRecTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/isFullRecTitile"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:id="@+id/isFullRec"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/isFull"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:baselineAligned="true"
+                android:text="@string/isFullRec"
+                android:textSize="24sp" />
+            <RadioButton
+                android:id="@+id/notFull"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:baselineAligned="true"
+                android:text="@string/notFullRec"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/isUseEarphoneTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/isUseEarphoneTitle"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:id="@+id/isUseEarphone"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/isUse"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:baselineAligned="true"
+                android:text="@string/isEarphone"
+                android:textSize="24sp" />
+            <RadioButton
+                android:id="@+id/notUse"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:baselineAligned="true"
+                android:text="@string/notEarphone"
+                android:textSize="24sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/groupSizeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/groupSizeTitle"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/groupSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/groupSize"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/foodTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/foodTitle"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/foodType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/foodType"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/extraInfoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/extraInfoTitle"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/extraInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/extraInfo"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/saveMiscInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/saveMiscInfo"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
